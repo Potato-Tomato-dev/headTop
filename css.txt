@@ -1,0 +1,29 @@
+.headin {
+  height: 150px;
+  width: 100%;
+  background-image: url("./layouts/2.jpg");
+  background-size: cover; /* <------ */
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: auto; */
+}
+@font-face {
+  font-family: work-sans;
+  src: url(./assets/fonts/nucleo-icons.woff2);
+}
+.headin h2 {
+  padding-top: 30px;
+  padding-left: 300px;
+  color: wheat;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  font-family: work-sans;
+}
+
+.headin p {
+  padding-left: 300px;
+  color: wheat;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  font-family: work-sans;
+}
